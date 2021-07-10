@@ -3,7 +3,7 @@ if version < 802
   finish
 endif
 
-if exists('g:loaded_fzf_bookmarks_vim') || version < 802
+if exists('g:loaded_fzf_bookmarks_vim')
   finish
 endif
 const g:loaded_fzf_bookmarks_vim = 1
