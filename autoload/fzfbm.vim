@@ -27,7 +27,7 @@ function! fzfbm#run()
   call fzf#run(fzf#wrap({
         \ 'source': paths,
         \ 'sink*': function('fzfbm#callback'),
-        \ 'options': '--ansi --expect=ctrl-t,ctrl-v,ctrl-x --prompt "Bookmarks > "',
+        \ 'options': '--ansi --expect=ctrl-t,ctrl-v,ctrl-x --prompt "Bookmarks > " -d :',
         \ }))
 endfunction
 
