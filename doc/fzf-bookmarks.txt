@@ -1,0 +1,47 @@
+*fzf-bookmarks.vim* *fzf-bookmarks.txt* *fzf-bookmarks* author: tenfyzhong email: tenfy@tenfy.cn
+
+================================================================================
+Contents:
+0. Introduction -------------------------------- |fzf-bookmarks-introduction|
+1. Install ------------------------------------- |fzf-bookmarks-install|
+2. Usage --------------------------------------- |fzf-bookmarks-usage|
+3. Command ------------------------------------- |fzf-bookmarks-command|
+4. LICENSE ------------------------------------- |fzf-bookmarks-license|
+
+================================================================================
+0. Introduction                                  *fzf-bookmarks-introduction*
+Make https://github.com/MattesGroeger/vim-bookmarks support fzf
+
+================================================================================
+1. Install                                       *fzf-bookmarks-install*
+I suggest you to use a plugin manager, such vim-plug or other.
+- [vim-plug](https://github.com/junegunn/vim-plug)
+  Plug 'tenfyzhong/fzf-bookmarks.vim'
+
+
+- Manual
+  git clone https://github.com/tenfyzhong/fzf-bookmarks.vim.git ~/.vim/bundle/fzf-bookmarks.vim
+  echo 'set rtp+=~/.vim/bundle/fzf-bookmarks.vim' >> ~/.vimrc
+  vim -c 'helptag ~/.vim/bundle/fzf-bookmarks.vim/doc' -c qa!
+
+
+================================================================================
+2. Usage                                         *fzf-bookmarks-usage*
+Use command |FZFBookmarks| to open the fzf window and the select a bookmark. 
+It will open to it with your key:
+- <enter> open in current window.
+- <ctrl-t> open in new tab. 
+- <ctrl-v> open in vertical split window.
+- <ctrl-x> open in horizontal split window. 
+
+================================================================================
+3. Command                                       *fzf-bookmarks-command*
+FZFBookmarks                                     *FZFBookmarks*
+Open bookmarks fzf windows. 
+
+================================================================================
+4. LICENSE                                       *fzf-bookmarks-license*
+MIT License  Copyright (c) 2021 tenfy
+
+" vim:ft=help:iskeyword+=-:iskeyword+=58:iskeyword+=#
+

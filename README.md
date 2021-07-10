@@ -1,2 +1,2 @@
 # fzf-bookmarks.vim
-Make `vim-bookmarks` support fzf
+Make [MattesGroeger/vim-bookmarks](https://github.com/MattesGroeger/vim-bookmarks) support fzf
